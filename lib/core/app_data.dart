@@ -174,18 +174,18 @@ class AppData {
     ProductCategory(
       ProductType.all,
       true,
-      Icons.all_inclusive,
+      Icons.all_out_sharp,
     ),
     ProductCategory(
       ProductType.mobile,
       false,
-      FontAwesomeIcons.mobileScreenButton,
+      FontAwesomeIcons.phone,
     ),
     ProductCategory(ProductType.watch, false, Icons.watch),
     ProductCategory(
       ProductType.tablet,
       false,
-      FontAwesomeIcons.tablet,
+      FontAwesomeIcons.computer,
     ),
     ProductCategory(
       ProductType.headphone,
@@ -214,25 +214,25 @@ class AppData {
     BottomNavyBarItem(
       "Home",
       const Icon(Icons.home),
-      const Color(0xFFEC6813),
+      const Color(0xFF135FEC),
       Colors.grey,
     ),
     BottomNavyBarItem(
       "Favorite",
       const Icon(Icons.favorite),
-      const Color(0xFFEC6813),
+      const Color(0xFF135FEC),
       Colors.grey,
     ),
     BottomNavyBarItem(
       "Cart",
       const Icon(Icons.shopping_cart),
-      const Color(0xFFEC6813),
+      const Color(0xFF135FEC),
       Colors.grey,
     ),
     BottomNavyBarItem(
       "Profile",
       const Icon(Icons.person),
-      const Color(0xFFEC6813),
+      const Color(0xFF135FEC),
       Colors.grey,
     ),
   ];
@@ -240,7 +240,7 @@ class AppData {
   static List<RecommendedProduct> recommendedProducts = [
     RecommendedProduct(
       imagePath: "",
-      cardBackgroundColor: const Color(0xFFEC6813),
+      cardBackgroundColor: const Color(0xFF135FEC),
     ),
     RecommendedProduct(
       imagePath: "",

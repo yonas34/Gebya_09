@@ -14,10 +14,10 @@ class ProductListScreen extends StatelessWidget {
   const ProductListScreen({Key? key}) : super(key: key);
 
   Widget appBarActionButton(AppbarActionType type) {
-    IconData icon = Icons.ac_unit_outlined;
+    IconData icon = Icons.shop;
 
     if (type == AppbarActionType.trailing) {
-      icon = Icons.search;
+      icon = Icons.find_replace;
     }
 
     return Container(
@@ -79,7 +79,7 @@ class ProductListScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            '30 off',
+                            '30% Discount',
                             style: Theme.of(context)
                                 .textTheme
                                 .displaySmall
@@ -142,7 +142,7 @@ class ProductListScreen extends StatelessWidget {
               style: Theme.of(context)
                   .textTheme
                   .titleLarge
-                  ?.copyWith(color: Colors.deepOrange.withOpacity(0.7)),
+                  ?.copyWith(color: Colors.blue.withOpacity(0.7)),
             ),
           )
         ],
